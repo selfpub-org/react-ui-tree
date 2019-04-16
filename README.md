@@ -1,6 +1,13 @@
 # react-ui-tree
 
+[![Build Status](https://travis-ci.org/selfpub-org/react-ui-tree.svg)](https://travis-ci.org/selfpub-org/react-ui-tree)
+[![npm](https://img.shields.io/npm/v/@selfpub/react-ui-tree.svg)](https://www.npmjs.com/package/@selfpub/react-ui-tree)
+
 React tree component
+
+This is a fork of the library: https://github.com/pqx/react-ui-tree
+
+Original author: https://github.com/pqx/
 
 This project was initially developed for a webpage builder. It maintains an
 internal tree structure within the component through
