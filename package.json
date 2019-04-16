@@ -1,6 +1,6 @@
 {
-  "name": "react-ui-tree",
-  "version": "4.0.0",
+  "name": "@selfpub/react-ui-tree",
+  "version": "4.0.1",
   "description": "React tree component",
   "main": "dist/index.cjs.js",
   "module": "dist/index.esm.js",
@@ -17,7 +17,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/pqx/react-ui-tree.git"
+    "url": "https://github.com/selfpub-org/react-ui-tree.git"
   },
   "keywords": [
     "react",
@@ -28,12 +28,12 @@
      "index.d.ts",
      "dist"
   ],
-  "author": "Wang Zuo",
+  "author": "Selfpub Open",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/pqx/react-ui-tree/issues"
+    "url": "https://github.com/selfpub-org/react-ui-tree/issues"
   },
-  "homepage": "https://github.com/pqx/react-ui-tree",
+  "homepage": "https://github.com/selfpub-org/react-ui-tree",
   "peerDependencies": {
     "react": "^16.0.0",
     "react-dom": "^16.0.0"
