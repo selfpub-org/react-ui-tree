@@ -27,10 +27,11 @@ npm install @selfpub/react-ui-tree --save
   tree={this.state.tree}        // tree object
   onChange={this.handleChange}  // onChange(tree) tree object changed
   renderNode={this.renderNode}  // renderNode(node) return react element
+  renderCaret={this.renderCaret}  // renderCaret(node) return react element
 />
 
 // a sample tree object
-// node.children, node.collapsed, node.leaf properties are hardcoded
+// node.children, node.collapsed, node.leaf, node.nodrag properties are hardcoded
 {
   "module": "react-ui-tree",
   "children": [{

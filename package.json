@@ -24,9 +24,9 @@
     "react-component",
     "tree"
   ],
-   "files": [
-     "index.d.ts",
-     "dist"
+  "files": [
+    "index.d.ts",
+    "dist"
   ],
   "author": "Selfpub Open",
   "license": "MIT",
@@ -40,9 +40,9 @@
   },
   "dependencies": {
     "@babel/runtime": "^7.1.2",
-    "classnames": "^2.2.5",
     "js-tree": "^2.0.1",
-    "prop-types": "^15.6.2"
+    "prop-types": "^15.6.2",
+    "styled-components": "^4.2.0"
   },
   "jest": {
     "collectCoverage": true,
