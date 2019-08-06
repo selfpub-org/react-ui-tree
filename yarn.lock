@@ -4167,9 +4167,9 @@ js-tokens@^3.0.2:
   integrity sha1-mGbfOVECEw449/mWvOtlRDIJwls=
 
 js-tree@^2.0.1:
-  version "2.0.1"
-  resolved "https://registry.yarnpkg.com/js-tree/-/js-tree-2.0.1.tgz#14013121abdb38587c07eeffd6fcf78b443f9396"
-  integrity sha512-otG8ZDEQP9PW+80nyXcrsJYB0Mj6vMy673u0/oYqyOZhIBrniOnR3pyL9D0FIDzpZGCaiGbspgkBHZeJinR1PQ==
+  version "2.0.2"
+  resolved "https://registry.yarnpkg.com/js-tree/-/js-tree-2.0.2.tgz#25cd00c55a236bd3e02578b25d1c6721803c4085"
+  integrity sha512-+pqyPOy8vZXW5v+M16rpSFsUO7rtxxnDAKn70DtSkDYhlMUs7QHhprcq/b4FBCbZMeyFv2Pfg8NWgIle9qLMbw==
 
 js-yaml@^3.7.0:
   version "3.12.0"
