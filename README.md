@@ -1,7 +1,9 @@
 # react-ui-tree
 
 [![Build Status](https://travis-ci.org/selfpub-org/react-ui-tree.svg)](https://travis-ci.org/selfpub-org/react-ui-tree)
-[![npm](https://img.shields.io/npm/v/@selfpub/react-ui-tree.svg)](https://www.npmjs.com/package/@selfpub/react-ui-tree)
+[![Dependabot Status](https://api.dependabot.com/badges/status?host=github&repo=selfpub-org/react-ui-tree)](https://dependabot.com)
+[![npm](https://badgen.net/npm/v/@selfpub/react-ui-tree)](https://www.npmjs.com/package/@selfpub/react-ui-tree)
+[![bundlephobia](https://badgen.net/bundlephobia/min/@selfpub/react-ui-tree)](https://bundlephobia.com/result?p=@selfpub/react-ui-tree)
 
 React tree component
 
