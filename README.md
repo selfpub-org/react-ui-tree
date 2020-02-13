@@ -7,9 +7,11 @@
 
 React tree component
 
-This is a fork of the library: https://github.com/pqx/react-ui-tree
+> This is a fork of the library: https://github.com/pqx/react-ui-tree
 
-Original author: https://github.com/pqx/
+> Original author: https://github.com/pqx/
+
+**And we use styled-components for style**
 
 This project was initially developed for a webpage builder. It maintains an
 internal tree structure within the component through
