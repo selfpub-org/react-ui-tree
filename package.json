@@ -61,7 +61,7 @@
     "babel-jest": "^25.2.6",
     "babel-loader": "^8.1.0",
     "css-loader": "^3.5.1",
-    "jest": "^25.2.7",
+    "jest": "^26.1.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-is": "^16.13.1",
