@@ -1,0 +1,15 @@
+version: 2
+updates:
+- package-ecosystem: npm
+  directory: "/"
+  schedule:
+    interval: monthly
+    time: "22:00"
+  open-pull-requests-limit: 10
+  reviewers:
+  - devxom
+  ignore:
+  - dependency-name: styled-components
+    versions:
+    - ">= 4.4.a"
+    - "< 4.5"
