@@ -43,7 +43,7 @@
     "@babel/runtime": "^7.9.2",
     "js-tree": "^2.0.2",
     "prop-types": "^15.7.2",
-    "styled-components": "^5.1.0"
+    "styled-components": "^5.1.1"
   },
   "jest": {
     "collectCoverage": true,
