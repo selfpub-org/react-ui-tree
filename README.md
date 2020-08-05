@@ -11,6 +11,8 @@ React tree component
 
 > Original author: https://github.com/pqx/
 
+Demo: https://selfpub-org.github.io/react-ui-tree/
+
 **And we use styled-components for style**
 
 This project was initially developed for a webpage builder. It maintains an
