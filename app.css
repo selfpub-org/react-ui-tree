@@ -1,0 +1,29 @@
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+}
+
+.app{
+  position: relative;
+  height: 100vh;
+}
+
+.inspector {
+  margin-left: 425px; 
+  max-height:  100%;
+  overflow: auto; 
+}
+
+.inspector pre {
+  font-family: Menlo;
+  font-size: 13px;
+}
