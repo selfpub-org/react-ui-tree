@@ -64,16 +64,34 @@ export const Overlay = styled.div`
 
 export const Container = styled.div`
   text-align: left;
-  padding: 8px;
+  padding: 8px 16px 8px 8px;
   overflow-y: auto;
+`;
+
+export const DragIconContainer = styled.div`
+  position: absolute;
+  z-index: 1;
+  right: 0;
+  top: 0;
+  cursor: pointer;
+  height: 100%;
+
+  margin: auto;
+  text-align: center;
+  opacity: 0.1; 
+  transition: 1s;
+
+  :hover {
+    opacity: 1;
+  }
 `;
 
 export const Item = styled.div`
   display: block;
   text-decoration: none;
-  padding: 0 8px;
-  line-height: 2em;
-  height: 2em;
+  padding: 0 28px 0 8px;
+  line-height: 36px;
+  height: 36px;
   text-overflow: ellipsis;
   overflow: hidden;
   white-space: nowrap;

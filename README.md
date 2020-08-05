@@ -28,10 +28,12 @@ npm install @selfpub/react-ui-tree --save
 ```javascript
 <Tree
   paddingLeft={20}              // left padding for children nodes in pixels
+  hideRoot={true}               // rendering first root tree node
   tree={this.state.tree}        // tree object
   onChange={this.handleChange}  // onChange(tree) tree object changed
   renderNode={this.renderNode}  // renderNode(node) return react element
   renderCaret={this.renderCaret}  // renderCaret(node) return react element
+  renderDragIcon={this.renderDragIcon}  // renderDragIcon() return react element
 />
 
 // a sample tree object
