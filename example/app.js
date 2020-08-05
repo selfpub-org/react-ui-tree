@@ -22,7 +22,10 @@ import {
   Header,
   Buttons,
   Overlay,
+  DragIconContainer,
 } from "./styles";
+
+import { DragIcon } from "./DragIcon";
 
 class App extends Component {
   state = {
@@ -130,6 +133,14 @@ class App extends Component {
     return <Caret {...props} />;
   };
 
+  renderDragIcon = props => {
+    return (
+      <DragIconContainer {...props}>
+        <DragIcon />
+      </DragIconContainer>
+    );
+  };
+
   render() {
     const { dirty, tree, isEditing } = this.state;
 
@@ -156,13 +167,10 @@ class App extends Component {
               isNodeCollapsed={this.isNodeCollapsed}
               renderNode={this.renderNode}
               renderCaret={this.renderCaret}
+              renderDragIcon={this.renderDragIcon}
+              hideRoot={true}
             />
-            <Tree
-              tree={notes}
-              renderNode={this.renderNode}
-              renderCaret={this.renderCaret}
-              draggable={false}
-            />
+
           </Container>
         </Panel>
         <div className="inspector">
