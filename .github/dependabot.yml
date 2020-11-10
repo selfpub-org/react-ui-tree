@@ -6,8 +6,15 @@ updates:
     interval: monthly
     time: "22:00"
   open-pull-requests-limit: 10
+  assignees:
+    - "octocat"
+  commit-message:
+    # Prefix all commit messages with "npm"
+    prefix: "npm"
   reviewers:
-  - devxom
+    - "selfpub-org/selfpub_frontend"
+  labels:
+    - "dependencies"
   ignore:
   - dependency-name: styled-components
     versions:

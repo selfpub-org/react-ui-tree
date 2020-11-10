@@ -57,9 +57,9 @@ for a working example
 
 ### Development
 
-- npm install
-- npm start
-- http://localhost:8080/example
+    npm install
+    npm start
+    http://localhost:8080/example
 
 ### License
 

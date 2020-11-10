@@ -1,8 +1,8 @@
-import babel from 'rollup-plugin-babel';
-import commonjs from 'rollup-plugin-commonjs';
+import babel from '@rollup/plugin-babel';
+import commonjs from '@rollup/plugin-commonjs';
 import nodeResolve from 'rollup-plugin-node-resolve';
-import pkg from './package.json';
 
+import pkg from './package.json';
 const input = './lib/index.js';
 
 const external = id => !id.startsWith('.') && !id.startsWith('/');
@@ -17,7 +17,7 @@ export default [
     external,
     plugins: [
       babel({
-        runtimeHelpers: true,
+        babelHelpers: 'runtime',
         plugins: ['@babel/transform-runtime']
       }),
       nodeResolve(),
@@ -34,7 +34,7 @@ export default [
     external,
     plugins: [
       babel({
-        runtimeHelpers: true,
+        babelHelpers: 'runtime',
         plugins: [['@babel/transform-runtime', { useESModules: true }]]
       }),
       nodeResolve(),
