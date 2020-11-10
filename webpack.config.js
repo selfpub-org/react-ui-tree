@@ -8,8 +8,18 @@ module.exports = {
   },
   module: {
     rules: [
-      { test: /\.m?js$/, exclude: /node_modules/, use: 'babel-loader' },
-      { test: /\.css$/, loader: 'style-loader!css-loader' }
+      {
+        test: /\.m?js$/,
+        exclude: /node_modules/,
+        use: 'babel-loader'
+      },
+      {
+        test: /\.css$/,
+        use: [
+          { loader: 'style-loader' },
+          { loader: 'css-loader' },
+        ]
+      }
     ]
   },
   devtool: 'source-map'
