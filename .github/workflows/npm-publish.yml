@@ -8,22 +8,21 @@ on:
     types: [created]
 
 jobs:
-  test:
+  build:
     runs-on: ubuntu-latest
     strategy:
       matrix:
         node: [ '14', '15' ]
-      name: Run test on node v${{ matrix.node }}
-      steps:
-        - uses: actions/checkout@v2
-        - uses: actions/setup-node@v1
-          with:
-            node-version: ${{ matrix.node }}
-        - run: npm ci
-        - run: npm test
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-node@v1
+        with:
+          node-version: ${{ matrix.node }}
+      - run: npm ci
+      - run: npm test
 
   publish-npm:
-    needs: test
+    needs: build
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
@@ -37,7 +36,7 @@ jobs:
           NODE_AUTH_TOKEN: ${{secrets.NPM_TOKEN}}
 
   publish-gpr:
-    needs: test
+    needs: build
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
